@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.starbuzz2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.PR.starbuzz_ver3.TopLevelActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.PR.starbuzz_ver3.DrinkCategoryActivity" />
+        <activity android:name="com.PR.starbuzz_ver3.DrinkActivity"></activity>
+        <activity android:name="com.PR.starbuzz_ver3.FoodCategoryActivity"></activity>
+        <activity android:name="com.PR.starbuzz_ver3.FoodActivity"></activity>
+        <activity android:name="com.PR.starbuzz_ver3.StoreActivity"></activity>
+        <activity android:name="com.PR.starbuzz_ver3.StoreCategoryActivity"></activity>
+    </application>
+
+</manifest>

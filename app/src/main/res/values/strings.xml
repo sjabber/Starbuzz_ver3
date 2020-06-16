@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Starbuzz</string>
+    <string name="starbuzz_logo">Starbuzz logo</string>
+    <string-array name="options">
+        <item>Drinks</item>
+        <item>Food</item>
+        <item>Stores</item>
+    </string-array>
+    <string name="favorite1">Drink_Favorite</string>
+    <string name="favorite2">Food_Favorite</string>
+    <string name="favorites1">Your favorite drinks:</string>
+    <string name="favorites2">Your favorite foods:</string>
+    <string name="name">2014250018_김태호</string>
+</resources>
